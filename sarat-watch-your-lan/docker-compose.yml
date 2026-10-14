@@ -2,8 +2,7 @@ version: "3.7"
 
 services:
   web:
-    # Private image: run `sudo docker login ghcr.io -u sarat03` on the Umbrel once.
-    image: ghcr.io/sarat03/watchyourlan:latest
+    image: ghcr.io/sarat03/lanlookout:8235985a636832d3ade12c08cd122558aec4d1ff@sha256:1adb2a6fdcf62d343a1d046d5e262be5236ba7713578aa0a5c551f5e477cc898
     network_mode: "host"              # arp-scan must see the LAN
     restart: on-failure
     stop_grace_period: 1m
@@ -11,6 +10,6 @@ services:
     environment:
       TZ: "America/New_York"
       HOST: "0.0.0.0"
-      PORT: "8841"                    # 8840 stays free for the official app
+      PORT: "8841"
     volumes:
-      - ${APP_DATA_DIR}/data:/data/WatchYourLAN
+      - ${APP_DATA_DIR}/data:/data/WatchYourLAN   # kept: existing hosts and history

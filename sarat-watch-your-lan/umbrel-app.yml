@@ -2,31 +2,28 @@ manifestVersion: 1
 id: sarat-watch-your-lan
 storage:
   dataRoot: data
-name: WatchYourLAN (Sarat)
-tagline: Network scanner with a redesigned, phone-friendly UI
-icon: https://raw.githubusercontent.com/aceberg/WatchYourLAN/main/assets/logo.png
+name: LanLookout
+tagline: "Home network monitor: devices, internet health, security, DNS"
+icon: https://raw.githubusercontent.com/sarat03/lanlookout/main/assets/logo.svg
 category: networking
-version: "2.1.4-sarat.1"
+version: "0.1.0"
 port: 8841
 description: >-
-  WatchYourLAN keeps track of every device on your local network.
-
-
-  This build adds a redesigned interface that works on phones, Add host and
-  Scan now buttons, and better device names: names are retried on every scan
-  and looked up over mDNS when your router's DNS has none.
+  LanLookout keeps a list of every device on your network and works out what
+  each one is. It alerts you to new devices, watched devices going offline,
+  internet outages and risky open ports, and can show which sites each device
+  uses via Pi-hole or AdGuard Home.
 
 
   If your devices don't appear, open Settings → Scanning and enter your network
-  interface names (run `ip link show` in the Umbrel terminal to list them),
-  then save.
-releaseNotes: ""
-developer: aceberg (UI and naming changes by sarat03)
-website: https://github.com/aceberg/WatchYourLAN
+  interface names (run `ip link show` in the Umbrel terminal to list them).
+releaseNotes: "Renamed to LanLookout. New Internet and Security pages, device identification, alerts and DNS logs."
+developer: sarat03
+website: https://github.com/sarat03/lanlookout
 submitter: sarat03
 submission: https://github.com/sarat03/umbrel-apps
-repo: https://github.com/aceberg/WatchYourLAN
-support: https://github.com/aceberg/WatchYourLAN/issues
+repo: https://github.com/sarat03/lanlookout
+support: https://github.com/sarat03/lanlookout/issues
 gallery: []
 dependencies: []
 path: ""
