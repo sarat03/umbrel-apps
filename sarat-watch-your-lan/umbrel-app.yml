@@ -6,7 +6,7 @@ name: LanLookout
 tagline: "Home network monitor: devices, internet health, security, DNS"
 icon: https://raw.githubusercontent.com/sarat03/lanlookout/main/assets/logo.svg
 category: networking
-version: "0.1.0"
+version: "0.1.1"
 port: 8841
 description: >-
   LanLookout keeps a list of every device on your network and works out what
@@ -17,7 +17,7 @@ description: >-
 
   If your devices don't appear, open Settings → Scanning and enter your network
   interface names (run `ip link show` in the Umbrel terminal to list them).
-releaseNotes: "Renamed to LanLookout. New Internet and Security pages, device identification, alerts and DNS logs."
+releaseNotes: "Nav tab highlight fixed, new device types (plug, thermostat, fan, light, car), History page splits Hosts and Recent events."
 developer: sarat03
 website: https://github.com/sarat03/lanlookout
 submitter: sarat03
