@@ -2,7 +2,7 @@ manifestVersion: 1
 id: sarat-lan-look-out
 storage:
   dataRoot: data
-name: LAN Look Out
+name: LanLookout
 tagline: "Home network monitor: devices, internet health, security, DNS"
 icon: https://raw.githubusercontent.com/sarat03/lanlookout/main/assets/logo.svg
 category: networking
