@@ -2,7 +2,7 @@ version: "3.7"
 
 services:
   web:
-    image: ghcr.io/sarat03/lanlookout:5dd1264a3e1c0e9335644b1378c89c21ed0380f8@sha256:9d15fdaf5bc79ad1a5bd8a20bfbd0887cd3c258779bf277f561e9b840d18a0cb
+    image: ghcr.io/sarat03/lanlookout:feae4a43d2800e304f8da62b1ea8ca4edc93e870@sha256:d343603b8cef874dbfd9917c150213ec82c14613927a6672b40b46d810fd80a6
     network_mode: "host"              # arp-scan must see the LAN
     restart: on-failure
     stop_grace_period: 1m
