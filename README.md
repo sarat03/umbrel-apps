@@ -10,5 +10,5 @@ a home network monitor.
 
 ## Updating
 Images are built on every push to LanLookout's `main`. To release one here, set the
-`image:` in `sarat-watch-your-lan/docker-compose.yml` to the new commit tag and digest,
-and bump `version` in `sarat-watch-your-lan/umbrel-app.yml` so Umbrel shows the Update button.
+`image:` in `sarat-lan-look-out/docker-compose.yml` to the new commit tag and digest,
+and bump `version` in `sarat-lan-look-out/umbrel-app.yml` so Umbrel shows the Update button.
